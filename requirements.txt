@@ -1,0 +1,11 @@
+# Rest & Recharge EV Dashboard — Python Dependencies
+# Pin these versions for stability on Streamlit Community Cloud
+
+streamlit>=1.32.0
+streamlit-authenticator==0.3.3
+pandas>=2.1.0
+plotly>=5.18.0
+gspread>=6.0.0
+google-auth>=2.27.0
+PyYAML>=6.0.1
+openpyxl>=3.1.2

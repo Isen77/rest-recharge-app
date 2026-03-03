@@ -1,0 +1,52 @@
+# ═══════════════════════════════════════════════════════════════
+#  Rest & Recharge Dashboard — User Authentication Config
+#
+#  HOW TO ADD / CHANGE PASSWORDS:
+#  1. Run this command in your terminal to generate a hash:
+#     python3 -c "import streamlit_authenticator as s; print(s.Hasher(['YourPassword123']).generate()[0])"
+#  2. Replace the password value below with the output
+#  3. Re-deploy your Streamlit app
+#
+#  ROLES:
+#    admin  → can see Admin Panel (upload monthly data)
+#    viewer → can see dashboards only
+# ═══════════════════════════════════════════════════════════════
+
+credentials:
+  usernames:
+
+    # ── Admin Account (monthly data uploader) ─────────────────
+    admin:
+      name: Program Admin
+      # Default password: Admin2025! — CHANGE THIS before deploying!
+      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      role: admin
+
+    # ── Viewer Accounts ───────────────────────────────────────
+    viewer1:
+      name: Viewer One
+      # Default password: View2025! — CHANGE THIS before deploying!
+      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      role: viewer
+
+    viewer2:
+      name: Viewer Two
+      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      role: viewer
+
+    viewer3:
+      name: Viewer Three
+      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      role: viewer
+
+    viewer4:
+      name: Viewer Four
+      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      role: viewer
+
+# ── Session Cookie Settings ────────────────────────────────────
+cookie:
+  name: rest_recharge_auth_cookie
+  # IMPORTANT: Change this to a random secret string before deploying!
+  key: change_this_to_a_long_random_secret_string_before_deploying
+  expiry_days: 30
