@@ -19,29 +19,29 @@ credentials:
     admin:
       name: Program Admin
       # Default password: Admin2025! — CHANGE THIS before deploying!
-      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      password: $2b$12$quVYp90WEioFwaOHaYBNt.s89R8TGfT8DTEYStTRUcYd6QZfyFQH6
       role: admin
 
     # ── Viewer Accounts ───────────────────────────────────────
     viewer1:
       name: Viewer One
       # Default password: View2025! — CHANGE THIS before deploying!
-      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      password: $2b$12$SuTrAgQ6WHmwgBsS4hk22ud0NigM.1qkAl4G9xbYD8DzmEyS0sL1a
       role: viewer
 
     viewer2:
       name: Viewer Two
-      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      password: $2b$12$SuTrAgQ6WHmwgBsS4hk22ud0NigM.1qkAl4G9xbYD8DzmEyS0sL1a
       role: viewer
 
     viewer3:
       name: Viewer Three
-      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      password: $2b$12$SuTrAgQ6WHmwgBsS4hk22ud0NigM.1qkAl4G9xbYD8DzmEyS0sL1a
       role: viewer
 
     viewer4:
       name: Viewer Four
-      password: $2b$12$Ber5jT2A2pVCjBG3bU6S6uL4PVrqvRxFRm3X0.pxCLhFEeBVXKe0i
+      password: $2b$12$SuTrAgQ6WHmwgBsS4hk22ud0NigM.1qkAl4G9xbYD8DzmEyS0sL1a
       role: viewer
 
 # ── Session Cookie Settings ────────────────────────────────────
